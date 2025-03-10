@@ -8,7 +8,8 @@ A demo video of the full project can be seen [here](https://drive.google.com/fil
 Documentation of the libraries used is attached in a pdf. 
 
 ## Core Game
-The idea of the game is to guess a 4-digit passcode. When the player guesses a digit in the sequence correctly, an LED will glow green in its location. If the guess is less than the correct digit, then the LED will glow red. If the guess is greater than the correct digit, the LED will glow yellow. The player is given a set amount of attempts (configurable) to guess the correct sequence. The passcode is configurable within the code. 
+The idea of the game is to guess a 4-digit passcode. When the player guesses a digit in the sequence correctly, an LED will glow green in its location. If the guess is less than the correct digit, then the LED will glow red. If the guess is greater than the correct digit, the LED will glow yellow. The player is given a set amount of attempts (configurable) to guess the correct sequence. The passcode is configurable within the code. A flow chart can be seen [here](https://drive.google.com/file/d/14HiZF9rkV0rohaJP4iovaxgV43ng2krC/view?usp=sharing).
+
 ### Win Case 
 If the player guesses the correct passcode, a motor is actuated and a lock box is opened to reveal a prize. 
 ### Lose Case 
